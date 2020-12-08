@@ -1,0 +1,5 @@
+<ul >
+    <li *ngFor="let livre of allLivres; count as nb">
+        <app-livre [livre]="livre" [nb]="nb"></app-livre>
+    </li>
+</ul>
